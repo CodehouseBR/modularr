@@ -1,4 +1,4 @@
-![Modular](img/logo.png)
+![Modular](app/images/logo.png)
 ===============================
 Sistema de automação escolar multiplataforma
 
