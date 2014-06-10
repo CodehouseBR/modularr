@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js">
-    <head>
+<head>
         <meta charset="utf-8">
         <title>modular the right way</title>
         <meta name="description" content="">
@@ -15,9 +15,8 @@
         <!-- build:css styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
-
-    </head>
-    <body>
+</head>
+<body>
     <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
         <div class='container-fluid'>
              <div class='navbar-header'>
@@ -95,6 +94,15 @@
         </div>
     </div>
 
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/pouchdb/dist/pouchdb-nightly.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
         <!-- build:js scripts/plugins.js -->
         <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
         <script src="bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
@@ -111,6 +119,9 @@
         <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
+        <script src="scripts/resource.js"></script>
+        <script src="scripts/session.js"></script>
+        <script src="scripts/user.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
