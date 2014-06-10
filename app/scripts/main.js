@@ -3,8 +3,8 @@
 (function(){
 	var app = angular.module('modular', ['ui.router']);
 
-	app.config(function( $stateProvider, $routeProvider ){
-		$routeProvider.otherwise('/');
+	app.config(function( $stateProvider, $urlRouterProvider ){
+		$urlRouterProvider.otherwise('/');
 	});
 	
 	app.controller('AppController', function(){
